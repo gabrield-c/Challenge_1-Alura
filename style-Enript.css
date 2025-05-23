@@ -149,6 +149,26 @@ header{
     background: #1f8500;
 }
 
+.boton-limpiar{
+    border: none;
+    background: #ffc107; /* A different color for distinction */
+    line-height: 35px;
+    width: 12%;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-left: 6%;
+    transition: 300ms all;
+}
+
+.boton-limpiar:hover{
+    transform: scale(1.1);
+    background: #e0a800;
+}
+
+.boton-limpiar:active{
+    background: #c69500;
+}
+
 footer{
     background: #000000;
     padding: 40px;
