@@ -1,10 +1,9 @@
 body{
-    background: linear-gradient(#000,#3d3d3d);
-    /* background: url(fondooo.jpg); */
-    /* background-size: 50%;
-    background-position: 90% 70%; */
+    background-color: #D1DDED;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+
+
 
 
 header{
@@ -14,46 +13,22 @@ header{
     margin-top: -35px;
 }
 
-.titulo{
-    font-weight:bold;
-    font-size: 40px;
-    background: blue;
-    color: #e6ffe3;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow:8px 8px 10px 5px rgb(0, 255, 153);
-    padding: 25px 0px;
-    margin: 1em 1em 0 1em;
-    border: none;
-}
-
 
 
 .principal{
     width: 940px; 
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 20px 100px 20px;
 }
 
 .cuadros{
-    text-align: center;
+    margin-top: 50px;
 }
 
-.textarea1{
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    margin: 0 0 10px 0;
-    background: #000000;
-    padding: 10px 0 10px 20px;
-    text-align: initial;
-}
 
 .cuadros ::placeholder{
     font-weight: bold;
-    color: #000000;
-    text-align: center;
-    padding-top: 50%;
+    color: #223A59;
 }
 
 .principal textarea{
@@ -64,8 +39,7 @@ header{
 .mensaje-Usuario{
     font-weight: bold;
     font-size: 1.2em;
-    border-radius: 3px;
-    background: linear-gradient(#ffffff,#69ffbe); ;
+    background-color: transparent;
     resize: none;
 }
 
@@ -75,12 +49,12 @@ header{
     border-radius: 3px;
     margin-left: 40px;
     resize: none;
-    background: linear-gradient(#ffffff,#69ffbe); 
+    background-color: transparent;
 }
 
 .advertencia, .advertencia p{
     display: inline;
-    color: #ffffff;
+    color: #031930;
     margin-left: 10px;
 }
 
@@ -90,14 +64,16 @@ header{
     margin-left: 525px;
     display: inline;
     font-size: 1.1em;
-    background: #a4b1a0;
+    background: #031930;
     transition: 200ms all; 
+    color: #ffffff;
+    padding: 6px 10px;
 }
 
 .copiar:hover{
     color: #ffffff;
     transform: scale(1.03);
-    background: #5a5a5a
+    background: #020e1c
 }
 
 .copiar:active{
@@ -111,7 +87,8 @@ header{
 
 .boton-encript{
     border: none;
-    background: #3cff00;
+    background: #223A59;
+    color: whitesmoke;
     line-height: 35px;
     width: 12%;
     border-radius: 10px;
@@ -122,16 +99,14 @@ header{
 
 .boton-encript:hover{
     transform: scale(1.1);
-    background: #26a200;
+    background: #101d2e;
+    color: whitesmoke;
 }
 
-.boton-encript:active{
-    background: #1f8500;
-}
 
 .boton-desencript{
-    border: none;
-    background: #3cff00;
+    border: solid 2px #223A59;
+    background-color: transparent;
     line-height: 35px;
     width: 12%;
     border-radius: 10px;
@@ -142,15 +117,12 @@ header{
 
 .boton-desencript:hover{
     transform: scale(1.1);
-    background: #26a200;
+    background: whitesmoke;
 }
 
-.boton-desencript:active{
-    background: #1f8500;
-}
 
 footer{
-    background: #000000;
+    background: #020e1c;
     padding: 40px;
 }
 
@@ -162,19 +134,3 @@ footer p{
     padding: 2em;
 }
 
-.imagen{
-    margin: auto 50%;
-    position: relative;
-    width: 100px;
-    box-shadow:8px 8px 40px 10px rgb(0, 0, 0);
-    transition: 700ms;
-}
-
-.imagen:hover{ 
-    box-shadow:4px 4px 5px 5px #00e226;
-    border-radius: 10px;
-}
-
-.imagen:active{
-    box-shadow:3px 3px 4px 4px red;
-}  
