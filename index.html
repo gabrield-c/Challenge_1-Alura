@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Encriptador y Desencriptador</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <header>
+            <h1 class="titulo">Encriptador y desencriptador de texto</h1>
+        </header>
+       
+        <main class="principal">
+
+            <div class="cuadros">
+                <h3 class="textarea1">En el siguiente apartado ingrese el texto:</h3>
+                
+                <textarea cols="70" rows="30" class="mensaje-Usuario"  required placeholder="Ingresa el texto que desees encriptar o desencriptar"></textarea>            
+                
+                <textarea readonly cols="70" rows="30" class="mensaje-resultado"  required placeholder="No ha ingresado texto"></textarea>
+            </div>  
+
+            <section class="advertencia">            
+                <p>&#9888 Solo letras minúsculas y sin acentos</p>
+            </section>
+
+            <button class="copiar">copiar texto</button>
+
+            <div class="botones">
+                <button class="boton-encript">Encriptar</button>
+                <button class="boton-desencript">Desencriptar</button>
+            </div>
+
+        </main>
+        
+        <footer> 
+            <img src="./img/imagen.png" class="imagen">
+            <p>Pagina creada por Gabriel Campos Campos - 2023</p>
+            
+        </footer>
+        
+        <script src="./js/script.js"></script>
+    </body>    
+</html>
+
